@@ -1,5 +1,11 @@
-<%= form_tag(controller: "contact", action: "email", method: "post") do %>
-	  <%= label_tag(:email, "email") %><br>
-	  <%= text_area_tag :content, nil, :rows => 5, :required => true %><br>
+<div style = "margin:10;padding:10">
+	<%= form_tag(controller: "contact", action: "email", method: "post") do %>
+      <%= label_tag(:name_label, "Your Name") %><br>
+      <%= text_field(:name, nil, :placeholder => "John Smith", :required => true) %><br> <br>
+	  <%= label_tag(:sender, "     Sender's email") %><br>
+	  <%= text_field :senders_email, nil, :placeholder =>"example@example.com", :required => true %><br><br>
+	  <%= label_tag(:email, "  Text") %><br>
+	  <%= text_area_tag :content, nil, :rows => 5, :required => true %><br> <br>
 	  <%= submit_tag("Email") %>      
-<% end %>
+    <% end %>
+</div>
