@@ -14,7 +14,7 @@ App::Application.configure do
   config.action_controller.perform_caching = false
 
   # Don't care if the mailer can't send
-  config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
 
@@ -41,9 +41,9 @@ App::Application.configure do
   ActionMailer::Base.smtp_settings = {  
   :address              => "smtp.gmail.com",  
   :port                 => 587,  
-  :domain               => "asciicasts.com",  
-  :user_name            => "testingpurpose722@gmail.com",  
-  :password             => "bcalintegration",  
+  :domain               => "gmail.com",  
+  :user_name            => "hilifestationery@gmail.com",  
+  :password             => "hilife123",  
   :authentication       => "plain",  
   :enable_starttls_auto => true  
   } 

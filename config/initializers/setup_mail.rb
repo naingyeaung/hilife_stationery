@@ -2,9 +2,9 @@
 ActionMailer::Base.smtp_settings = {  
   :address              => "smtp.gmail.com",  
   :port                 => 587,  
-  :domain               => "asciicasts.com",  
-  :user_name            => "testingpurpose722@gmail.com",  
-  :password             => "bcalintegration",  
+  :domain               => "gmail.com",  
+  :user_name            => "hilifestationery@gmail.com",  
+  :password             => "hilife123",  
   :authentication       => "plain",  
   :enable_starttls_auto => true  
 } 
