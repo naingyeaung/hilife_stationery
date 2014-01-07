@@ -1,11 +1,13 @@
-<div style = "margin:10;padding:10">
-	<%= form_tag(controller: "contact", action: "email", method: "post") do %>
-      <%= label_tag(:name_label, "Your Name") %><br>
-      <%= text_field(:name, nil, :placeholder => "John Smith", :required => true) %><br> <br>
-	  <%= label_tag(:sender, "     Sender's email") %><br>
-	  <%= text_field :senders_email, nil, :placeholder =>"example@example.com", :required => true %><br><br>
-	  <%= label_tag(:email, "  Text") %><br>
-	  <%= text_area_tag :content, nil, :rows => 5, :required => true %><br> <br>
-	  <%= submit_tag("Email") %>      
-    <% end %>
+<html>
+    <form accept-charset="UTF-8" action="/contact/email?method=post" method="post"><div style="margin:8;padding:10;display:block;margin-left: 2em;"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="yZe82vgY6EFHw30Pl6MWKd6NZZVhUMbm55O9a38b1/4=" />
+      <div style = "margin:10;padding:19"><label for="name_label">Your Name</label><br>
+      <input id="name_" name="name[]" placeholder="John Smith" required="required" size="30" type="text" /><br> <br>
+	  <label for="sender">Sender&#x27;s email</label><br>
+	  <input id="senders_email_" name="senders_email[]" placeholder="example@example.com" required="required" size="30" type="text" /><br><br>
+	  <label for="email">  Text</label><br>
+	  <textarea id="content" name="content" required="required" rows="5"> </textarea><br> <br>
+	  <input name="commit" type="submit" value="Email" class="btn btn-primary btn-small"/>
+	</div>
 </div>
+</form>
+</html>
