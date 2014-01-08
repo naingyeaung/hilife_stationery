@@ -4810,19 +4810,19 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus {
-    color: #ecdbff;
+    color: #9b59b6;
 }
 .navbar-custom .navbar-nav > li > a {
     color: #ecf0f1;
 }
 .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus {
-    color: #ecdbff;
+    color: #9b59b6;
 }
 .navbar-custom .navbar-nav > .active > a, 
 .navbar-custom .navbar-nav > .active > a:hover, 
 .navbar-custom .navbar-nav > .active > a:focus {
-    color: #ecdbff;
+    color: #9b59b6;
     background-color: #8e44ad;
 }
 .navbar-custom .navbar-nav > .open > a, 
