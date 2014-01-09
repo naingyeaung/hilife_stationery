@@ -16,8 +16,8 @@
   <link href="assets/css/screen.css" rel="stylesheet" />
 
   <%= csrf_meta_tags %>
-  <h1>
-  	<%= image_tag("/assets/logo.png", size: "50x50") %>
+  <h1 style="font-size:50px" align="center">
+  	<%= image_tag("/assets/logo.png", size: "75x75") %>
     Hi-Life Co., Ltd
   </h1>
   <nav class="navbar navbar-custom" role="navigation">
@@ -31,8 +31,9 @@
   		<li class="dropdown">
   		    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
   		    <ul class = "dropdown-menu">
-  		      <li><a href="product/koto">Koto</a></li>
-  		      <li><a href="product/kw-trio">KW-trio</a></li>
+  		      <li><a href="/product/koto">Koto</a></li>
+  		      <li><a href="/product/kw-trio">KW-trio</a></li>
+            <li><a href="/product/nippon">Nippon</a></li>
   		    </ul>
   		</li>
 

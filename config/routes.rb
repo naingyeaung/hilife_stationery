@@ -53,6 +53,8 @@ App::Application.routes.draw do
   resources :contact
   post "contact/email", :to => "contact#email", :as => :email
   get "product/kw-trio", :to => "product#kwtrio", :as => :kwtrio
+  get "product/koto", :to => "product#koto", :as => :koto
+  get "product/nippon", :to => "product#nippon", :as => :nippon
 
   # See how all your routes lay out with "rake routes"
 
