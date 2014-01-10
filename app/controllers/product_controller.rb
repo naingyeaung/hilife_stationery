@@ -5,4 +5,8 @@ class ProductController < ApplicationController
     end
     def koto
     end
+    def xpro
+    end
+    def platinum
+    end
 end

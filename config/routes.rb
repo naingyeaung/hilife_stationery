@@ -55,6 +55,8 @@ App::Application.routes.draw do
   get "product/kw-trio", :to => "product#kwtrio", :as => :kwtrio
   get "product/koto", :to => "product#koto", :as => :koto
   get "product/nippon", :to => "product#nippon", :as => :nippon
+  get "product/xpro", :to => "product#xpro", :as => :xpro
+  get "product/platinum", :to => "product#platinum", :as => :platinum
 
   # See how all your routes lay out with "rake routes"
 
